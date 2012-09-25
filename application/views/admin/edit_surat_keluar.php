@@ -47,7 +47,7 @@
 
             <p>
                 <label>Perihal</label>
-                <input type="text" class="text" name="judul" value="<?php echo $s->sJudul; ?>" />
+ 	    	<textarea rows="3" id="judul" name="judul"><?php echo $s->sJudul; ?></textarea>
             </p>
 
             <p>
@@ -62,12 +62,12 @@
 
             <p>
                 <label>Keterangan</label>
-                <input type="text" class="text" name="keterangan" value="<?php echo $s->sKeterangan; ?>" />
+                <textarea rows="3" id="keterangan" name="keterangan"><?php echo $s->sKeterangan; ?></textarea>
             </p>
             
             <p>
                 <label>Tembusan</label>
-                <input type="text" class="text" name="keterangan" value="<?php echo $s->sTembusan; ?>" />
+                <textarea rows="3" id="tembusan" name="tembusan"><?php echo $s->sTembusan; ?></textarea>
             </p>
 
             <p>

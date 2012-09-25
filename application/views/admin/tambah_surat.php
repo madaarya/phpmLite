@@ -109,7 +109,7 @@
 
         <p>
             <label>Perihal</label>
-            <input type="text" class="text required" id="judul" name="judul" value="<?php echo set_value('judul'); ?>" title="Judul surat is required" />
+ 	    <textarea rows="3" id="judul" name="judul"><?php echo set_value('judul'); ?></textarea>
         </p>
 
         <p>
@@ -124,12 +124,12 @@
 
         <p>
             <label>Keterangan</label>
-            <input type="text" id="keterangan" class="text" name="keterangan" value="<?php echo set_value('keterangan'); ?>" />
+            <textarea rows="3" id="keterangan" name="keterangan"><?php echo set_value('keterangan'); ?></textarea>
         </p>
         
         <p>
             <label>Tembusan</label>
-            <input type="text" id="tembusan" class="text" name="tembusan" value="<?php echo set_value('tembusan'); ?>" />
+            <textarea rows="3" id="tembusan" name="tembusan"><?php echo set_value('tembusan'); ?></textarea>
         </p>
 
         <p>

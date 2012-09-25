@@ -18,7 +18,7 @@
     });
 </script>
 <div style="margin-left:50px">
-    <label><b>Perihal</label></b>
+    <label><b>Jenis Surat</label></b>
 <?php echo $jenis_surat; ?>
 <br><br>
 
@@ -32,7 +32,7 @@
 <?php echo $tanggal; ?>
 <br><br>
 
-<label><b>Judul Surat</b></label>
+<label><b>Perihal</b></label>
 <?php echo $judul; ?>
 <br><br>
 <label><b>Kepada</b></label>
