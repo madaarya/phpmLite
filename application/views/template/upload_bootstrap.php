@@ -57,7 +57,7 @@
                             <?php } ?>
                             <?php if ($this->session->userdata('username') == 'admin') { ?>
                                 <li class="<?php echo $this->User->page_active('departement'); ?>">
-                                    <a href="#">Departement</a><</li>
+                                    <a href="#">Departement</a></li>
                                 <li class="<?php echo $this->User->page_active('announce'); ?>">
                                     <a href="#">Announce</a></li>
                             <?php } ?>
