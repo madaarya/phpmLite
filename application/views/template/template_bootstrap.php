@@ -8,14 +8,14 @@
         <meta name="author" content="Mada Aryakusumah | me@madaarya.com"> 
 
         <!-- Le styles --> 
-        <link href="<?php echo base_url(); ?>assets/twitter-bootstrap/css/bootstrap.css" rel="stylesheet"> 
+        <link href="<?php echo base_url(); ?>assets/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
         <style type="text/css"> 
             body {
                 padding-top: 60px;
                 padding-bottom: 40px;
             }
         </style> 
-        <link href="<?php echo base_url(); ?>assets/twitter-bootstrap/css/bootstrap-responsive.css" rel="stylesheet"> 
+        <link href="<?php echo base_url(); ?>assets/twitter-bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" /> 
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.7.min.js"></script>
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
         <!--[if lt IE 9]>
@@ -106,12 +106,8 @@
         <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-alert.js"></script> 
         <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-modal.js"></script> 
         <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-dropdown.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-scrollspy.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-tab.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-tooltip.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-popover.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-button.js"></script> 
-        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-collapse.js"></script>  
+        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-tooltip.js"></script>
+        <script src="<?php echo base_url(); ?>assets/twitter-bootstrap/js/bootstrap-button.js"></script>   
 
     </body> 
 </html> 
